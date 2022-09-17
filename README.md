@@ -1,7 +1,7 @@
 
 # Visualization Technologies
 
-Monday's at 1:30pm–5:00pm PST | [Zoom](https://northeastern.zoom.us/j/96847986013)
+Monday's 1:30pm–5:00pm PST | [Zoom](https://northeastern.zoom.us/j/96847986013)
 
 
 Instructor: Matthew Bejtlich (m.bejtlich@northeastern.edu)<br>
