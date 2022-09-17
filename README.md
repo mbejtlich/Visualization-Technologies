@@ -4,8 +4,8 @@
 Monday's at 1:30pm–5:00pm PST | [Zoom](https://northeastern.zoom.us/j/96847986013)
 
 
-Matthew Bejtlich (m.bejtlich@northeastern.edu)<br>
-Parth Patel (parthjpatel9199@gmail.com)
+Instructor: Matthew Bejtlich (m.bejtlich@northeastern.edu)<br>
+IA: Parth Patel (parthjpatel9199@gmail.com)
 
 
 ## Schedule
