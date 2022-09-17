@@ -1,0 +1,77 @@
+body{
+
+   background-color: #e5e5e5;
+   background-color: white;
+   color: #000000;
+
+   margin: 40px auto 40px auto;
+   max-width: 670px;
+   min-width: 375px;
+   padding: 0 25px 0 25px;
+   font-variant-numeric: oldstyle-nums;
+
+
+   hyphens: auto;
+   -webkit-hyphens: auto;
+   -ms-hyphens: auto;
+
+   hyphenate-limit-lines: 2;
+   -webkit-hyphenate-limit-line: 2;
+
+   hyphenate-limit-chars: 7 3 3;
+   -webkit-hyphenate-limit-before: 3;
+   -webkit-hyphenate-limit-after: 3;
+}
+
+
+h1{
+   font-family: ff-real-headline-pro, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 32px;
+   margin-bottom: 45px;
+   padding-top: 40px
+}
+
+
+h2{
+   font-family: ff-real-headline-pro-2, sans-serif;
+   font-weight: 400;
+   font-style: italic;
+   font-size: 20px;
+   text-indent: 2em;
+}
+
+
+p{
+   font-family: ff-real-text-pro, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 18px;
+   line-height: 29px;
+}
+
+p+p{
+   text-indent: 2em;
+}
+
+i {
+  font-style: italic;
+}
+
+@media only screen and (max-width: 550px) {
+  h1 {
+    font-size:  34px;
+    line-height: 45px;
+  }
+}
+
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+sub {
+  top: 0.4em;
+}
+
