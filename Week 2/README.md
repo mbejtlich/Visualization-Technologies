@@ -3,11 +3,11 @@ In this workshop, we will cover the basics of exploratory data analysis (EDA) in
 
 ## Exploratory Data Analysis 
 - Identify data sources 
-- Import and convert data in R 
+- Import and convert data in R Studio 
 - Clean data and perform quality check
-– Explore numerical distributions 
-– Explore categorical distributions
-– Create visualizations summarizing your findings, with insights annotated in text 
+- Explore numerical distributions 
+- Explore categorical distributions
+- Create visualizations summarizing your findings, with insights annotated in text 
 
 ## Data sources
 There are a few data formats that are standardized for computer to read. 
@@ -27,11 +27,11 @@ There are a few data formats that are standardized for computer to read.
 - Additional explanation [Mozilla: Working with JSON](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON)
 
 ### XML
-- Also knonwn as *eXtensible Markup Language*
+- Also knonwn as *EXtensible Markup Language*
 - Markup language without no predefined tags.
 – Semi-structured data type
 - Simple text-based format for representing structured information: documents, data, configuration, books, transactions, invoices, and much more
 - Additional explanation [Mozilla: XML introduction](https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction)
 
 ### Other filetype (unstructured data) 
-- photos, videos, text files, PDFs, ect. 
+- Photos, videos, sounds, text files, PDFs, ect. 
