@@ -24,7 +24,7 @@ September 19, 2022  |  🎥 [recording]
 It’s 2023, and you just got an important job working for New York City’s sustainability department. Your mission is to help the residents and city officials better understand the state of the urban forest so that they can make more informed decisions to help protect and conserve it. The sustainable management of urban forests is important for building climate resilience, improving biodiversity, ensuring clean air quality, and supporting the safety of ecosystems and wellbeing of its residents. To help with conservation efforts, you are being asked to design a cohesive set of information graphics in the form of a digital report for the city. The final outcome will be a website which will take a point of view through the data exploring a research question, and that will demonstrate your working knowledge of data analysis and visualization methods for the web. For data sources please select 3 data categories (see below) to represent on your website. You can propose a new dataset if it isn’t on the list.
 
 **Your final website will include** 
-Title 
+- Title 
 - Introduction 
 - 5 different visualizations w/labels and annotations
 - One of these graphics should be comparison graphic (e.g. across data categories)
