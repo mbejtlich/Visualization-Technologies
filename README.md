@@ -35,8 +35,8 @@ It’s 2023, and you just got an important job working for New York City’s sus
 - All graphics should support your research question 
 - Appropriate use of typography, color, and structure/arrangement 
 - Uses the tools R, HTML, CSS, Javascript (d3.js/p5.js)
-- Time interval for data (5-10 years)
-- 2 colors only (plus white or black)
+- Time interval for data (5-10 years, can include longer range if desired)
+- 2 colors only (plus white and/or black)
 
 **Data categories**
 - [2015 Tree census](https://data.cityofnewyork.us/Environment/2015-Street-Tree-Census-Tree-Data/uvpi-gqnh) 
