@@ -1,5 +1,5 @@
 # Week 2: Exploratory Data Analysis in R
-In this workshop, we will cover the basics of exploratory data analysis (EDA) in R, including data preparation, cleaning, analysis, and visaulization. Through this process we will learn to explore the data through the lens of our research question/project idea, and uncover possibly new patterns and the relationships in the data. EDA will inform your final visualization concept.       
+In this workshop, we will cover the basics of exploratory data analysis (EDA) in R, including data preparation, cleaning, analysis, and visualization. Through this process we will learn to explore the data through the lens of our research question/project idea, and uncover possibly new patterns and the relationships in the data. EDA will inform your final visualization concept.       
 
 ## Exploratory Data Analysis 
 - Identify data sources 

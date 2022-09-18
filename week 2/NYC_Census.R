@@ -1,18 +1,32 @@
 (Visualization)
-# Read in Data
+
+# INITATE PACKAGES
+library(leaps)
+library(glmnet)
+library(pls)
+library(tidyr)
+library(dplyr)
+library(ggplot2)
+library(ggmap)
+
+# READ IN CSV FILES
 nyc <- read.csv ("nyc_census.csv", header=TRUE)
 loc <- read.csv ("census_tract_loc.csv", header=TRUE)
 summary(nyc)
 options(scipen = 999)
 loc$BlockCode <- substr(loc$BlockCode, 0, 11)
 
-# Remove NA values
+# CLEAN DATA / REMOVE NA
 nyc_census <- na.omit(nyc)
+
+# SUMMARY STATISTICS
 summary(nyc_census)
+
+# MERGE DATA
 merged <- merge(nyc_census, loc, by.x=("CensusTract"), by.y=("BlockCode"),all.x = TRUE)
 summary(merged)
-library(ggplot2)
-library(ggmap)
+
+# CREATE GEO MAP 
 nyc_base <- ggmap::get_map("New York City", zoom = 10)
 ggmap(nyc_base)
 ggmap(nyc_base) + geom_point(aes(x=Longitude, y=Latitude, 
@@ -22,6 +36,8 @@ ggmap(nyc_base) + geom_point(aes(x=Longitude, y=Latitude,
 ggmap(nyc_base) + geom_point(aes(x=Longitude, y=Latitude, 
                                  colour=IncomePerCap), data=merged) + 
   scale_colour_gradient(low = "yellow", high = "violet")
+
+# CATEGORICAL DISTRIBUTIONS
 
 boxplot(Income~County,data = nyc_census,
         main="Boxplot of Income in Different Counties",
@@ -55,12 +71,12 @@ boxplot(nyc_census$Transit~nyc_census$County,ylab="Transit")
 boxplot(nyc_census$Carpool~nyc_census$County,ylab="Carpool")
 boxplot(nyc_census$Walk~nyc_census$County,ylab="Walk")
 
+
+
+
+
 # Model for predicting household median income 
-library(leaps)
-library(glmnet)
-library(pls)
-library(tidyr)
-library(ggplot2)
+
 census = read.csv('nyc_census.csv')
 dim(census) # 2167 36
 # remove na
