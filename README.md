@@ -11,7 +11,7 @@ IA: Parth Patel (parthjpatel9199@gmail.com)
 ## Schedule
 
 ### Week 2: Exploratory Data Analysis in R
-September 19, 2022  |  🎥 [recording]
+September 19, 2022  
 - how to prepare, clean, and process data for visualization 
 - how to transform data 
 - how to anaylze and explore data to generate insights using statistical and visual techniques  
