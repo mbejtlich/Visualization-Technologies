@@ -61,5 +61,5 @@ It’s 2023, and you just got an important job working for New York City’s sus
 - [Why do Buses Bunch?](https://setosa.io/bus/)
 
 ## Resources
-[Github markdown tips](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-[Git ignore tips](https://caltechlibrary.github.io/git-desktop/05-ignore/#:~:text=To%20ignore%20files%20in%20your,to%20ignore%20in%20your%20repository.)
+- [Github markdown tips](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+- [Git ignore tips](https://caltechlibrary.github.io/git-desktop/05-ignore/#:~:text=To%20ignore%20files%20in%20your,to%20ignore%20in%20your%20repository.)
