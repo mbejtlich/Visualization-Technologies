@@ -5,6 +5,7 @@ library(tidyr) # for cleaning data
 library(dplyr) # for transforming data
 library(ggplot2) # for plotting data 
 library(ggmap) # for creating maps w/Google Maps
+library(ggsci)
 
 # LOAD DATA
 nyc <- read.csv ("nyc_census.csv", header=TRUE)
@@ -16,11 +17,11 @@ options(scipen = 999)
 
 # CLEAN DATA / DROP NA 
 dim(nyc)  # 2095 35
-nyc <- na.omit(nyc) # at this point you can also drop columns that you don't need
+nyc_census <- na.omit(nyc) # at this point you can also drop columns that you don't need
 
 # SUMMARY STATISTICS
-dim(nyc)  # 2095 35
-summary(nyc)
+dim(nyc_census)  # 2095 35
+summary(nyc_census)
 
 # CATEGORICAL DISTRIBUTIONS
 
@@ -57,36 +58,44 @@ boxplot(nyc_census$Transit~nyc_census$County,ylab="Transit")
 boxplot(nyc_census$Carpool~nyc_census$County,ylab="Carpool")
 boxplot(nyc_census$Walk~nyc_census$County,ylab="Walk")
 
+
+library(gridExtra)
+library(ggthemes)
+
 # conditional barchart
-ggplot(nyc,aes(x = Borough, y = Women)) + geom_bar(stat = "Identity") 
+ggplot(nyc_census,aes(x = Borough, y = Women)) + geom_bar(stat = "Identity", fill="black") 
+ggplot(nyc_census,aes(x = Borough, y = Women)) + geom_bar(stat = "Identity", fill="grey")+ theme_tufte() 
 
+# conditional barchart
+ggplot(nyc_census,aes(x = County, y = Income)) + geom_boxplot(fill="blue")+ theme_classic() 
 
-test = filter(nyc, Borough == "Manhattan")
+test = filter(nyc_census, Borough == "Manhattan")
 sum(test$Women)
 
 
 # NUMERICAL DISTRIBUTIONS
 
 # scatterplot
-p <- ggplot(nyc,aes(x=Poverty, y=Income)) + geom_point(size=1.0, color='darkorchid4')+geom_smooth(method="lm")
-plot(p)
+ggplot(nyc_census,aes(x=Poverty, y=Income)) + geom_point(size=1) + theme_bw()+ theme_tufte()
+ggplot(nyc_census,aes(x=Poverty, y=Income)) + geom_point(size=1.2,color="darkblue", alpha = 0.5) + theme_tufte()
 
-# scatterplots  
-nyc %>%
-  gather(Asian,Black, Carpool, ChildPoverty, Citizen,
-         key = "var", value = "value") %>%
-  ggplot(aes(x = value, y = IncomePerCap)) +
-  geom_point(colour = "blue", alpha = 0.8, size=0.2) +
+nyc_q = subset(nyc_census, select = -c(CensusTract, County, Borough))
+dim(nyc_q)
+
+# multiple scatterplots
+nyc_q %>%
+  gather(-Income, key = "var", value = "value") %>%
+  ggplot(aes(x = value, y = Income)) +
+  geom_point(colour = "blue", alpha = 0.2, size=0.1) +
   facet_wrap(~ var, scales = "free") +
   theme_bw()
 
-# histogram for each variable 
-nyc_census %>%
-  gather(County, Men, Hispanic, Black, Native, Asian, Citizen, Income, IncomeErr,
-         IncomePerCapErr, ChildPoverty, Service, Office, Construction,
-         Production, Drive, Carpool, OtherTransp, MeanCommute, Employed, 
-         PublicWork, SelfEmployed, FamilyWork,Unemployment,  
-         -IncomePerCap, key = "var", value = "value") %>%
+ggplot(nyc_census,aes(x = Poverty, y = Income)) + geom_point(colour = "blue", alpha = 0.2, size=1) + theme_bw()
+
+
+# histogram of all continuous variables 
+nyc_q %>%
+  gather(., key = "var", value = "value") %>%
   ggplot(aes(value)) +
   geom_histogram(fill='blue') +
   facet_wrap(~ var, scales = "free") +
