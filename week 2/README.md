@@ -12,6 +12,7 @@ In this workshop, we will cover the basics of exploratory data analysis (EDA) in
 ## Resources
 - [Guidelines for good plots](https://rdpeng.github.io/RProgDA/customizing-ggplot2-plots.html)
 - [Dplyr & tidyr cheatsheat](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
+- [Merging dataframes in R](https://www.datasciencemadesimple.com/join-in-r-merge-in-r/)
 - [Introduction to ggplot2](http://r-statistics.co/Complete-Ggplot2-Tutorial-Part1-With-R-Code.html)
 - [ggplot2 color tips](https://www.datanovia.com/en/blog/ggplot-colors-best-tricks-you-will-love/)
 
