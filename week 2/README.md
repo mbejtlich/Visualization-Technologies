@@ -9,6 +9,11 @@ In this workshop, we will cover the basics of exploratory data analysis (EDA) in
 - Explore categorical distributions
 - Create visualizations summarizing your findings, with insights annotated in text 
 
+## Resources
+[Dplyr & tidyr cheatsheat](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
+[Introduction to ggplot2](http://r-statistics.co/Complete-Ggplot2-Tutorial-Part1-With-R-Code.html)
+[ggplot2 color tips](https://www.datanovia.com/en/blog/ggplot-colors-best-tricks-you-will-love/)
+
 ## Data sources
 There are a few data formats that are standardized for computer to read. 
 
