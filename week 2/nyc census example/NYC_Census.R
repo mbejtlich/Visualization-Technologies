@@ -14,7 +14,7 @@ summary(nyc) # compute simple statistics
 # REMOVE SCIENTIFIC NOTATION
 options(scipen = 999) 
 
-# CLEAN DATA / DROP NA
+# CLEAN DATA / DROP NA 
 dim(nyc)  # 2095 35
 nyc <- na.omit(nyc) # at this point you can also drop columns that you don't need
 
@@ -24,7 +24,7 @@ summary(nyc)
 
 # CATEGORICAL DISTRIBUTIONS
 
-par(mfrow = c(1,1))
+par(mfrow = c(1,1)) # Create 
 boxplot(Income~County,data = nyc_census,
         main="Boxplot of Income in Different Counties",
         xlab="County",ylab="Income")
@@ -68,10 +68,10 @@ sum(test$Women)
 # NUMERICAL DISTRIBUTIONS
 
 # scatterplot
-p <- ggplot(nyc,aes(x=Poverty, y=Income)) + geom_point(size=1.0)
-p
+p <- ggplot(nyc,aes(x=Poverty, y=Income)) + geom_point(size=1.0, color='darkorchid4')+geom_smooth(method="lm")
+plot(p)
 
-# scatterplot
+# scatterplots  
 nyc %>%
   gather(Asian,Black, Carpool, ChildPoverty, Citizen,
          key = "var", value = "value") %>%
