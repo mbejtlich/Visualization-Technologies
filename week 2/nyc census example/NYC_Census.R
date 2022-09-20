@@ -62,11 +62,11 @@ boxplot(nyc_census$Walk~nyc_census$County,ylab="Walk")
 library(gridExtra)
 library(ggthemes)
 
-# conditional barchart
+# barchart
 ggplot(nyc_census,aes(x = Borough, y = Women)) + geom_bar(stat = "Identity", fill="black") 
 ggplot(nyc_census,aes(x = Borough, y = Women)) + geom_bar(stat = "Identity", fill="grey")+ theme_tufte() 
 
-# conditional barchart
+# boxplot
 ggplot(nyc_census,aes(x = County, y = Income)) + geom_boxplot(fill="blue")+ theme_classic() 
 
 test = filter(nyc_census, Borough == "Manhattan")
@@ -77,7 +77,7 @@ sum(test$Women)
 
 # scatterplot
 ggplot(nyc_census,aes(x=Poverty, y=Income)) + geom_point(size=1) + theme_bw()+ theme_tufte()
-ggplot(nyc_census,aes(x=Poverty, y=Income)) + geom_point(size=1.2,color="darkblue", alpha = 0.5) + theme_tufte()
+ggplot(nyc_census,aes(x=Poverty, y=Income)) + geom_point(size=2,color="darkblue", alpha = 0.2) + theme_tufte()
 
 nyc_q = subset(nyc_census, select = -c(CensusTract, County, Borough))
 dim(nyc_q)
