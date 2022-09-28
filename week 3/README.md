@@ -2,10 +2,10 @@
 This week we begin the design concept phase and also continue with data exploration/ analysis in R. We will be joined by Michael Treglia (from The Nature Conservancy) and Kate Kryder (from Northeastern’s Research Data Services group) to speak about their visualization process and also discuss working with spatial data in R for creating maps.
 
 ## Michael Treglia (The Nature Conservancy)
-September 26, 2022  |  🎥 [recording](https://northeastern.zoom.us/rec/play/iuYFvMWiIkpjBQ2g_qYs90zUGMtSOLwf_z4OQfI1vFC3frbTixATmeSh_MCIhTUNRT_or7ndEmo7wnRE.XKkPnrr0athDul3F?autoplay=true)
+September 26, 2022  |  🎥 [recording](https://northeastern.zoom.us/rec/share/mlb2-KgN-z9S3gy2xR7HS_y8vxpVrx--yhhT0PSxyfQaY2FVUsMVv_xCJYpC-4R3.SKHgdW9dxONeScVb?startTime=1664224391000)
 
 ## Kate Kryder (Northeastern University Research Data Services)
-September 26, 2022  |  🎥 [recording](https://northeastern.zoom.us/rec/play/YP4F0U6DSkA71c8VdrmkUZo7JKSlvdxOWmfiAhM3Lwmd1UbnvTY87pgJZ32djBYVwXovcxPMVD4t28X6.FXIfiHgGfuXghSbd?autoplay=true) <br>
+September 26, 2022  |  🎥 [recording](https://northeastern.zoom.us/rec/share/mlb2-KgN-z9S3gy2xR7HS_y8vxpVrx--yhhT0PSxyfQaY2FVUsMVv_xCJYpC-4R3.SKHgdW9dxONeScVb?startTime=1664231775000) <br>
 See *nyc spatial data example* for the demo code.
    
 ## Mapping with spatial data in R (links from Kate)
