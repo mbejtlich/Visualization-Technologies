@@ -2,12 +2,13 @@
 This week we begin the design concept phase and also continue with data exploration/ analysis in R. We will be joined by Michael Treglia (from The Nature Conservancy) and Kate Kryder (from Northeastern’s Research Data Services group) to speak about their visualization process and also discuss working with spatial data in R for creating maps.
 
 ## Michael Treglia (The Nature Conservancy)
-September 26, 2022  |  🎥 [recording](https://northeastern.zoom.us/rec/play/2tIGob4e6vRz78Zu04zEQge4BCpYoRvn76cw1Rvi3hObDbPDrJalos-9I2QUcOUOW9v08YoyalHLZHPZ.IzZj4-jMBvXry2Cr?autoplay=true)
+September 26, 2022  |  🎥 [recording](https://northeastern.zoom.us/rec/play/iuYFvMWiIkpjBQ2g_qYs90zUGMtSOLwf_z4OQfI1vFC3frbTixATmeSh_MCIhTUNRT_or7ndEmo7wnRE.XKkPnrr0athDul3F?autoplay=true)
 
 ## Kate Kryder (Northeastern University Research Data Services)
-September 26, 2022  |  🎥 [recording](https://northeastern.zoom.us/rec/play/Bgl5FvgvRgdEGCPVFLvGApRW-aasAXfeHPw3L6kzce0zp1Tskx6q-cHnUMMbS-bJ3JGqk-aSHv-s1mgB.IePNLia1sQmDwCF3?autoplay=true)
+September 26, 2022  |  🎥 [recording](https://northeastern.zoom.us/rec/play/YP4F0U6DSkA71c8VdrmkUZo7JKSlvdxOWmfiAhM3Lwmd1UbnvTY87pgJZ32djBYVwXovcxPMVD4t28X6.FXIfiHgGfuXghSbd?autoplay=true)
+See **nyc spatial data example** for demo code.
    
-## Helpful links for mapping with spatial data in R (from Kate)
+## Mapping with spatial data in R (links from Kate)
 - [Leaflet choropleths](https://rstudio.github.io/leaflet/choropleths.html)
 - [sf](https://mattherman.info/blog/point-in-poly/)
 - [Interactive maps in R](https://www.helenmakesmaps.com/post/how-to-make-your-first-interactive-map-in-r-gis)
