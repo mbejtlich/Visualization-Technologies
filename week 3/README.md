@@ -5,8 +5,8 @@ This week we begin the design concept phase and also continue with data explorat
 September 26, 2022  |  🎥 [recording](https://northeastern.zoom.us/rec/play/iuYFvMWiIkpjBQ2g_qYs90zUGMtSOLwf_z4OQfI1vFC3frbTixATmeSh_MCIhTUNRT_or7ndEmo7wnRE.XKkPnrr0athDul3F?autoplay=true)
 
 ## Kate Kryder (Northeastern University Research Data Services)
-September 26, 2022  |  🎥 [recording](https://northeastern.zoom.us/rec/play/YP4F0U6DSkA71c8VdrmkUZo7JKSlvdxOWmfiAhM3Lwmd1UbnvTY87pgJZ32djBYVwXovcxPMVD4t28X6.FXIfiHgGfuXghSbd?autoplay=true)
-See **nyc spatial data example** for demo code.
+September 26, 2022  |  🎥 [recording](https://northeastern.zoom.us/rec/play/YP4F0U6DSkA71c8VdrmkUZo7JKSlvdxOWmfiAhM3Lwmd1UbnvTY87pgJZ32djBYVwXovcxPMVD4t28X6.FXIfiHgGfuXghSbd?autoplay=true) <br>
+See *nyc spatial data example* for the demo code.
    
 ## Mapping with spatial data in R (links from Kate)
 - [Leaflet choropleths](https://rstudio.github.io/leaflet/choropleths.html)
