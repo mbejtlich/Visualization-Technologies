@@ -9,7 +9,6 @@
 
 
 # STEP 2: Install and load "Leaflet for R".
-install.packages("leaflet")
 library(leaflet)
 
 # Step 3: Make sure Leaflet for R is working.
@@ -28,10 +27,9 @@ m
 
 # Step 5: Open your data using rgdal.
 # Here is the manual: https://cran.r-project.org/web/packages/rgdal/rgdal.pdf
-install.packages("rgdal")
 library(rgdal)
-myBoroughs <- readOGR("/Users/katek/Desktop/2022:9:26 (Viz Tech 1, Matt Bejtlich)/Borough Boundaries.geojson")
-myMarkers <- readOGR("/Users/katek/Desktop/2022:9:26 (Viz Tech 1, Matt Bejtlich)/NYPD Shooting Incident Data (Year To Date).geojson")
+myBoroughs <- readOGR("Borough Boundaries.geojson")
+myMarkers <- readOGR("NYPD Shooting Incident Data (Year To Date).geojson")
 
 # Step 6: View your data using leaflet.
 myMap <- leaflet() %>%
@@ -46,7 +44,6 @@ myMap
 
 # Step 7: Join your data using sf.
 # Here is the documentation: https://r-spatial.github.io/sf/articles/sf1.html
-install.packages("sf")
 library(sf)
 
 myMarkersSF <- st_as_sf(myMarkers)
