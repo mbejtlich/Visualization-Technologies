@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>Chart js demo</title>
+   <link rel="stylesheet" href="css/style1.css">
+   <link rel="stylesheet" href="https://use.typekit.net/hkj4cvs.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.6.1/d3.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+   <div class="container">
+
+      <h1>Chart.js demo</h1>
+
+      <h2>Line chart</h2>
+      
+      <div>
+         <canvas id="myChart1"></canvas>  
+       </div>
+        
+      <script>
+         const labels = [
+           'January',
+           'February',
+           'March',
+           'April',
+           'May',
+           'June',
+         ];
+       
+         const data = {
+           labels: labels,
+           datasets: [{
+             label: 'My First dataset',
+             backgroundColor: '#0b13e6',
+             borderColor: '#0b13e6',
+             data: [0, 10, 5, 2, 20, 30, 45],
+           }]
+         };
+       
+         const config = {
+           type: 'line',
+           data: data,
+           options: {}
+         };
+      </script>
+
+      <script>
+         const myChart = new Chart(
+          document.getElementById('myChart1'),
+          config
+         );
+      </script>
+
+      <h2>Bar chart</h2>     
+
+      <canvas id="myChart2" width="400" height="200"></canvas>
+
+      <script>
+      const ctx = document.getElementById('myChart2'); // draw on canvas
+
+      const myChart2 = new Chart(ctx, {
+          type: 'bar',
+          data: {
+              labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+              datasets: [{
+                  label: '# of Votes', // string 
+                  data: [12, 19, 3, 5, 2, 3],  // array
+                  backgroundColor: [
+                      'rgba(255, 99, 132, 0.2)',
+                      'rgba(54, 162, 235, 0.2)',
+                      'rgba(255, 206, 86, 0.2)',
+                      'rgba(75, 192, 192, 0.2)',
+                      'rgba(153, 102, 255, 0.2)',
+                      'rgba(255, 159, 64, 0.2)'
+                  ],
+                  // backgroundColor: ['rgb(255,99,132','rgba(255,0,0,0.5)','blue','#009900'],
+                  borderColor: [
+                      'rgba(255, 99, 132, 1)',
+                      'rgba(54, 162, 235, 1)',
+                      'rgba(255, 206, 86, 1)',
+                      'rgba(75, 192, 192, 1)',
+                      'rgba(153, 102, 255, 1)',
+                      'rgba(255, 159, 64, 1)'
+                  ],
+                  borderWidth: .5
+              }]
+          },
+          options: {
+              scales: {
+                  y: {
+                      beginAtZero: true
+                  }
+              }
+          }
+      });
+
+      // Tutorials
+      // https://www.sitepoint.com/introduction-chart-js-2-0-six-examples/#:~:text=Regardless%20of%20which%20you%20use,use%20to%20build%20your%20chart
+      // https://www.youtube.com/watch?v=NySBh_DIRlg
+      // https://www.createwithdata.com/d3js-or-chartjs/
+      </script>
+
+   </div>
+</body>
+
+</html>
