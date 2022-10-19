@@ -15,11 +15,12 @@ DATA SOURCE
 
 */
 
-d3.csv('data/WomenFeelingIncluded.csv').then(function(loadedData) {
+  d3.csv('data/WomenFeelingIncluded.csv').then(function(loadedData) {
+    console.log(loadedData)
     let data =   []; // percentages (column 2)
     let labels = []; // labels (column 1)
     
-    console.log(loadedData.length)
+    //console.log(loadedData.length)
     for (let i=0; i<loadedData.length; i++) {
       let race = loadedData[i].race;
       labels.push(race);  // add new element to array
@@ -31,8 +32,8 @@ d3.csv('data/WomenFeelingIncluded.csv').then(function(loadedData) {
       //console.log(percent)
     }
 
-    console.log(data)
-    //console.log(labels)
+    // console.log(data)
+    // console.log(labels)
     
     // optionally, add colors based on our data
     // (uses a function at the bottom, check it out 
