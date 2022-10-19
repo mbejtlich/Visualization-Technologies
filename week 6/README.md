@@ -2,6 +2,7 @@
 This week we will learn the fundamentals of programming and design for the web, using HTML and CSS. We will also review visual design principles. 
 
 ## Class resources
+- [Guidelines for good plots](https://rdpeng.github.io/RProgDA/customizing-ggplot2-plots.html)
 - [Export transparent background ggplot2](https://www.r-bloggers.com/2022/07/ggplot2-transparent-background-quick-guide/)
 - [8 ggplot2 tips](https://cmdlinetips.com/2019/10/barplots-with-ggplot2-in-r/)
 - [Chart.js multi bar chart](https://www.youtube.com/watch?v=VU5spDuIG2U&t=6s)
