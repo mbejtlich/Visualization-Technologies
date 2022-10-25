@@ -22,6 +22,6 @@ $(document).ready(function() {
         $('#feels').text(feelsTemp); 
     });
 
-    console.log("Hello world!!!")
+    console.log("Testing!!")
 
 });
