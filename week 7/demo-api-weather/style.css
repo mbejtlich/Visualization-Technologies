@@ -1,0 +1,19 @@
+body{
+  font-family: ff-real-headline-pro-2, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+temperature{
+  text-align: center;
+  font-weight: 400;
+  font-style: bold;
+  font-size: 30px;
+  line-height:41px;
+  color: rgb(199, 101, 15);
+}
+
+#temp, #feels{
+	display: inline;
+}
