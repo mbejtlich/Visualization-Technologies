@@ -1,5 +1,5 @@
-# Week 6: Intro to HTML and CSS
-This week we will learn the fundamentals of programming and design for the web, using HTML and CSS. We will also review visual design principles. 
+# Week 6: Intro to Chart.js
+Making interactive plots in Chart.js.
 
 ## Class resources
 - [Guidelines for good plots](https://rdpeng.github.io/RProgDA/customizing-ggplot2-plots.html)
