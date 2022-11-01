@@ -2,6 +2,7 @@
 Introduction to working with APIs in Javascript/p5.js.
 
 ## Class resources
+- [Getting Started with p5.js tutorials](https://github.com/lmccart/gswp5.js-code)
 - [p5.js tutorials](https://happycoding.io/tutorials/p5js/)
 - [p5.js examples](https://p5js.org/examples/)
 - [open processing examples](https://openprocessing.org/discover/#/trending)
