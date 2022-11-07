@@ -1,6 +1,9 @@
 # Week 9: Intro to p5.js
 Introduction to sketching in Javascript/p5.js.
 
+## Week 9 example
+- [Classes example](https://editor.p5js.org/mattbejtlich/sketches/rrjTa1v8_)
+
 ## Class resources
 - [Intro to coding with p5.js](https://happycoding.io/tutorials/p5js/welcome-to-coding)
 - [Creating variables](https://happycoding.io/tutorials/p5js/creating-variables#changing-variables)
