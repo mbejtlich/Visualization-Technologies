@@ -1,5 +1,5 @@
 # Week 8: Intro to p5.js
-Introduction to working with APIs in Javascript/p5.js.
+Introduction to sketching in Javascript/p5.js.
 
 ## Class resources
 - [Getting Started with p5.js tutorials](https://github.com/lmccart/gswp5.js-code)
