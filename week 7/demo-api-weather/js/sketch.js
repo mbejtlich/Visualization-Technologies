@@ -9,6 +9,8 @@ function setup() {
 
 function myData(data){
     weather = data;
+    //print(air.list[0].components.co)
+
 }
 
 function draw() {
